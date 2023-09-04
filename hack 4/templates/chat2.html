@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{mname}}</h1>
+    {% if no_of_box %}
+        {% for i in range(no_of_box) %}
+            <a href="#">{{hist1[i]}}</a>
+        {% endfor %}
+    {% endif %}
+    <form action="/personal" method="POST">
+        <input type="text" name="chat" placeholder="Type here">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

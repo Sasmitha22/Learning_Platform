@@ -1,0 +1,43 @@
+body {
+    background-color: #5c213d;
+}
+.form-control{
+    position: relative;
+    width: 900px;
+    height: 50px;
+    left: 500px;
+    top: 900px;
+}
+#bu{
+    position: relative;
+    top: 900px;
+    height: 50px;
+    left: 500px;
+}
+.boxes {
+    position: relative;
+    width: 50%;
+    height: 12rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.334), rgba(255, 167, 226, 0.556));
+    border: 0.125rem solid rgb(0, 0, 0);
+    padding: 1.25rem 0.625rem 0.625rem 1.875rem; 
+    margin: 1.25rem 1.25rem 1.25rem 1.25rem; 
+    border-radius: 1.25rem; 
+  }
+.boxes-foot {
+position: relative;
+width: 50%;
+display: inline;
+padding: 1rem 1rem 1rem 1rem;
+}
+.box {
+    position: relative;
+    width: 50%;
+    height: 12rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.334), rgba(255, 167, 226, 0.556));
+    border: 0.125rem solid rgb(0, 0, 0);
+    padding: 1.25rem 0.625rem 0.625rem 1.875rem; 
+    margin: 1.25rem 1.25rem 1.25rem 1.25rem; 
+    border-radius: 1.25rem; 
+    float: right;
+  }
